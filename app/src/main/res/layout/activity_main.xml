@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a4">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:textColor="#868686"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/View_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/start" />
+
+    <TextView
+        android:id="@+id/title_str"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textColor="#868686"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+        android:layout_below="@+id/title_str" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View_1"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="10dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/option_1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="left"
+            android:tag="@string/Left"
+            android:textColor="#868686"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/option_2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:tag="@string/Center"
+            android:textColor="#868686"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/option_3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:tag="@string/Right"
+            android:textColor="#868686"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="10dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

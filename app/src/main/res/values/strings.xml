@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Choose</string>
+    <string name="OPTION_1">选项一</string>
+    <string name="OPTION_2">选项二</string>
+    <string name="OPTION_3">选项三</string>
+    <string name="Sure">确认</string>
+    <string name="Cancel">取消</string>
+    <string name="Start">开始</string>
+    <string name="setout">准备</string>
+    <string name="Encore">再来一次</string>
+    <string name="Actioning">运动中...</string>
+    <string name="Drawpathing">绘制路线中...</string>
+    <string name="Change">修改 </string>
+    <string name="Text"> 文本</string>
+    <string name="Change_error">文本为空，修改失败</string>
+    <string name="Left">左选项</string>
+    <string name="Center">中选项</string>
+    <string name="Right">右选项</string>
+</resources>
